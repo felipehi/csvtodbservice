@@ -1,0 +1,32 @@
+schema banco de dados postgres
+
+host     = "localhost"
+port     = 1040
+user     = "postgres"
+password = "1234"
+dbname   = "postgres"
+schema   = "public"
+
+-- DROP SCHEMA public;
+
+CREATE SCHEMA public AUTHORIZATION postgres;
+
+COMMENT ON SCHEMA public IS 'standard public schema';
+
+
+CREATE TABLE public.customer (
+	cpf varchar(11) constraint pk_customer primary key,
+	private int not NULL,
+	incompleto int not NULL,
+	datultimacompra date NULL,
+	compraticketmedio numeric(19, 6) NULL,
+	ticketultcompra numeric(19, 6) NULL,
+	lojamaisfrequente varchar(14) NULL,
+	lojaultimacompra varchar(14) null
+	
+);
+
+
+
+
+
