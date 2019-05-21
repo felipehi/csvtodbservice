@@ -1,5 +1,5 @@
 # CSVTODBSERVICE
-serviço em GO que recebe um arquivo csv/txt de entrada, persistindo no banco de dados relacional
+serviço em GO que recebe um arquivo csv/txt de entrada, persistindo no banco de dados relacional.
 
 # Compilar
 Além de ter o Go instalado no sistema operacional é necessário executar:
