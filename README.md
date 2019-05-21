@@ -4,7 +4,6 @@ serviço em GO que recebe um arquivo csv/txt de entrada, persistindo no banco de
 # Compilar
 Além de ter o Go instalado no sistema operacional é necessário executar:
 
-export GOPATH=/src <br/>
 go get github.com/valyala/fasthttp <br/>
 go get github.com/lib/pq <br/>
 
